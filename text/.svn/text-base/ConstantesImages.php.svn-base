@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * Description of ConstantesArticles
+ * Classes de constantes pour l'onglet Articles
+ *
+ * @author Marc
+ */
+
+class ConstantesImages {
+
+  //Esprit saint
+  public static $hrefEspritSain = "espritsain.html";
+  public static $contentEspritSain = "Un esprit sain dans un corps sain";
+
+   //La salle
+  public static $hrefSalle = "lasalle.html";
+  public static $contentSalle = "Les photos de la salle";
+
+   //Avant apres
+  public static $hrefAvantApres = "avantapres.html";
+  public static $contentAvantApres = "Les \"Avant-apr&egrave;s\"";
+
+   //Le musee
+  public static $hrefMusee = "musee.html";
+  public static $contentMusee = "Le mus&eacute;e";
+
+   //Esprit saint
+  public static $hrefAmbiance = "ambiance.html";
+  public static $contentAmbiance = "Le convivialit&eacute; &aacute; la salle";
+
+}
+
+?>

@@ -1,0 +1,38 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+function makeContentBox($title, $message) {
+  $contentBox = "<div class=\"entete4middle\">
+                  $title
+                </div>
+                <div class=\"contenu4middle\">
+                  <p class=\"presentation\">$message</p>
+                </div>";
+  echo $contentBox;
+}
+
+function makeContentBoxOther($title, $message, $id) {
+  $contentBox = "<div class=\"entete4middle\">
+                  $title
+                </div>
+                <div class=\"contenu4middle\" id=\"$id\" style=\"display:none\">
+                  <p class=\"presentation\">$message</p>
+                </div>";
+  echo $contentBox;
+}
+
+function makeContentRightBox($title, $message) {
+  $contentRightBox = "<div class=\"entete\">
+                  $title
+                </div>
+                <div class=\"contenu\">
+                  $message
+                </div>";
+  echo $contentRightBox;
+}
+
+?>

@@ -1,0 +1,43 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of Constantes
+ *
+ * @author Marc
+ */
+class ConstantesAccueil {
+
+  //Qui sommes nous
+  public static $titleWhoAreWe = "Qui sommes-nous?";
+  public static $messageWhoAreWe = "Bienvenue sur le site d'<strong>Espace Forme - Montfermeil (limite Gagny)</strong> ! Ce club de remise en forme s&eacute;rieux, convivial et tr&egrave;s abordable existe depuis <strong>1987</strong>. Il est &eacute;quip&eacute; d'un espace cardio fitness, d'une salle de musculation, d'un sauna et d'un parking. Espace Forme Montfermeil vous permettra de perdre les kilos superflus, d&acute;avoir une silhouette plus athl&eacute;tique, d&acute;&ecirc;tre en meilleure forme, d&acute;am&eacute;liorer votre &eacute;tat de sant&eacute; (en diminuant ou en r&eacute;glant vos probl&egrave;mes de dos, de stress,  etc...). Les entra&icirc;nements sont dirig&eacute;s par un professeur dipl&ocirc;m&eacute; d&acute;&eacute;tat (plus de vingt ans d&acute;exp&eacute;rience). Le \"coaching\" est gratuit.";
+
+  //Les photos
+  public static $titlePictures = "Les photos";
+  public static $messagePictures = "Si vous souhaitez avoir un aper&ccedil;u de la salle, des photos sont disponibles dans l'onglet \"Photos\". Constatez les r&eacute;sultats que l'on peut obtenir au bout de seulement un ou deux ans de musculation dans la cat&eacute;gorie \"Avant-apr&egrave;s\" de l'onglet \"Photos\". Retrouver &eacute;galement des photos d'anciens culturistes qui vous permettront de constater qu'on peut progresser naturellement.";
+
+  //Les articles
+  public static $titleArticles = "Les articles";
+  public static $messageArticles = "Quelques articles sont &agrave; votre disposition dans cette rubrique. Savez-vous ce qu&acute;est une vraie motivation ? Connaissez-vous les arnaques des produits di&eacute;t&eacute;tique ? Cliquez <a href=\"articles.php5\" class=\"cliquez_ici\">ici</a>!";
+
+  //Blog
+  public static $titleBlog = "Mon blog";
+  public static $messageBlog = "Veuillez trouver des renseignements compl&eacute;mentaires sur la salle \"Espace Forme\" en vous rendant sur <a href=\"http://monespaceforme1.blogspot.com/\" class=\"cliquez_ici\" title=\"Mon blog\">mon blog</a>.";
+
+  //Référencement
+  public static $titleReferencement = "R&eacute;f&eacute;rencement";
+  public static $messageReferencement = "<p>Notre site  est list&eacute; dans la cat&eacute;gorie <a href=\"http://www.webrankinfo.com/annuaire/cat-299-force.htm\" class=\"link\">Force</a> :
+                                         <a href=\"http://www.webrankinfo.com/annuaire/cat-2052-musculation.htm\" class=\"link\">Musculation</a> de l'annuaire <a href=\"http://formation.ranking-metrics.fr/\"><img src=\"http://www.webrankinfo.com/images/wri/webrankinfo-80-15.png\" title=\"WebRankInfo\" width=\"80\" height=\"15\" alt=\"Formation referencement Google Maps\" /></a>
+                                         </p>";
+  //Promo
+  public static $titlePromo = "Promotions";
+  //public static $messagePromo = " Attention cadeau ! Pour votre premier abonnement annuel deux mois supplémentaires gratuits. ";
+  public static $messagePromo = "Attention cadeau ! Pour votre premier abonnement: + 2 mois gratuits.";
+  //public static $messagePromo = " Attention promotion ! Pour votre premier abonnement, 15% de réduction jusqu'au 9 février 2013. ";
+}
+
+?>

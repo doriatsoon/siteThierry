@@ -1,0 +1,67 @@
+#content {
+  width: 1024px;
+  height: 817px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+#content_right{
+  width:200px;
+  float:right;
+}
+
+
+#content_left{
+  width:780px;
+  float:left;
+}
+
+
+div.entete4middle{
+  font-size:1.5em;
+  font-weight:bold;
+  background-color:white;
+  margin-bottom:3px;
+  width:100%;
+  /*padding: 10px 10px 10px 10px;*/
+  border-bottom:1px solid #E9E9E9;
+}
+
+div.contenu4middle{
+  background-color:white;
+  margin-bottom:20px;
+  width:100%;
+  height:auto;
+  text-align:justify;
+  font-family:"HittheRoad", "Lucida Grande",Calibri, "Trebuchet MS", Helvetica, FreeSans, sans-serif;
+  font-size: 14px;
+}
+
+div.entete{
+  font-family:"HittheRoad", "Lucida Grande","Calibri", "Trebuchet MS", "Helvetica", "FreeSans", "sans-serif";
+  font-size: 1.5em;
+  background-color:white;
+  font-weight: bold;
+  text-shadow: #FFFFFF 2px -1px 2px;
+  margin-bottom:3px;
+  padding: 10px 10px 10px 10px;
+  border-bottom:1px solid #E9E9E9;
+}
+div.contenu{
+  font-family:"HittheRoad", "Lucida Grande",Calibri, "Trebuchet MS", Helvetica, FreeSans, sans-serif;
+  font-size: 14px;
+  background-color:white;
+  /*padding: 10px 10px 10px 10px;*/
+  min-height:200px;
+  margin-bottom:20px;
+
+}
+
+div.contenu_droite{
+  font-family:"HittheRoad", "Lucida Grande",Calibri, "Trebuchet MS", Helvetica, FreeSans, sans-serif;
+  font-size: 14px;
+  background-color:white;
+  padding: 10px 10px 10px 10px;
+  margin-bottom:20px;
+}

@@ -1,0 +1,201 @@
+/* Page */ 
+html { 
+  font-size: 100%;
+  font-family: "Century Gothic", "Lucida Grande", "Trebuchet MS", "Times New Roman", "Helvetica", "FreeSans", "sans-serif";
+} 
+
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-size: 0.8em;
+  line-height: 1.4;
+  background-color: #ffffff;
+} 
+
+/* Liens */ 
+a { 
+  text-decoration: none; 
+} 
+a:link { 
+  color: #fff; 
+} 
+a:visited { 
+  color: #ddd; 
+} 
+a:hover, a:focus, a:active { 
+  text-decoration: underline;
+} 
+/* Pas de bordure pointill�e ou halo lors du clic sur un lien */ 
+a:focus, a:active { 
+  outline: none; 
+} 
+
+a.cliquez_ici{
+ color: blue;
+}
+
+
+/* Pas de bordure autour des images dans les liens */ 
+a img { 
+  border: none; 
+} 
+
+
+
+h1 span { 
+  display: block;
+  font-weight: normal;
+  font-size: 50px; 
+  color: black;
+  /*text-shadow: white 0px 0px 5px #666; */
+} 
+h1 a, h1 a:visited {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+h1 a:hover, h1 a:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: 0px 0px 15px #fff; 
+}
+
+
+
+
+
+
+/* Divers �l�ments de type en-ligne (8) */ 
+em { 
+  font-style: italic; 
+} 
+strong { 
+  font-weight: bold; 
+} 
+
+/* ----------------------------- */
+/*        Blocs                  */
+/* ----------------------------- */
+
+header, nav, footer, figure, section {
+  display: block;
+}
+
+/* Header */ 
+
+header {
+  position: relative;
+  border-bottom: 1px solid #7394A0;
+}
+
+/* Content */ 
+#content p.presentation {
+  font-size: 1.2em;
+  text-align:justify;
+  margin:0px;
+  padding-top:10px;
+}
+
+#content p.contact {
+  margin-top: 20px;
+}
+#content p.contact img {
+  float: left;
+  margin-right: 20px;
+}
+#content p.livres img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Middle */ 
+#middle {
+  padding-top:20px;
+  width:100%;
+}
+
+
+/* Footer */ 
+
+footer {
+  clear: both;
+  width: 925px;
+  margin: 20px auto;
+  padding-right: 0px;
+}
+
+
+footer #alsacreations {
+  clear: both;
+  float: right;
+}
+footer #alsacreations a {
+  display: block;
+  margin-bottom: 15px;
+}
+footer #alsacreations img {
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+footer #alsacreations img:hover, footer #alsacreations img:focus {
+  -moz-transform: rotate(5deg); 
+  -webkit-transform: rotate(5deg);
+}
+
+
+
+
+p.subtitle{
+  font-weight:bold;
+}
+/********* IMAGES ************/
+img {border: none;}
+.container {
+  width: 600px;
+  margin: -180px 0 0 -400px;
+  top: 50%; left: 50%;
+  position: absolute;
+  padding: auto;
+}
+ul.thumb {
+  float: left;
+  list-style: none;
+  margin: auto;
+  padding: 10px;
+}
+ul.thumb li {
+  margin: 0; padding: 5px;
+  float: left;
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+ul.thumb li img {
+  width: 100px; height: 100px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #f0f0f0;
+  position: absolute;
+  left: 0; top: 0;
+  -ms-interpolation-mode: bicubic;
+}
+ul.thumb li img.hover {
+  background:url(thumb_bg.png) no-repeat center center;
+  border: none;
+}
+#main_view {
+  float: left;
+  padding: 9px 0;
+  margin-left: -10px;
+}
+
+a.link{
+	color:black;
+	font-weight:bold;
+}

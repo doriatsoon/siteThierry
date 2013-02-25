@@ -1,0 +1,50 @@
+#content {
+  width: 1024px;
+  height: 817px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+#content_right{
+  width:200px;
+  float:right;
+}
+
+
+#content_left{
+  width:780px;
+  float:left;
+}
+
+
+div.entete4middle{
+  font-size:1.5em;
+  font-weight:bold;
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  padding-left:10px;
+  margin-bottom:3px;
+  width:100%;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+}
+
+div.contenu4middle{
+  background-color:white;
+  margin-bottom:20px;
+  width:100%;
+  height:auto;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  font-family:"HittheRoad", "Lucida Grande",Calibri, "Trebuchet MS", Helvetica, FreeSans, sans-serif;
+  font-size: 14px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+   border-radius: 8px;
+}

@@ -1,0 +1,459 @@
+/* Page */ 
+html { 
+  font-size: 100%;
+  font-family: "Century Gothic", "Lucida Grande", "Trebuchet MS", Times New Roman, Helvetica, FreeSans, sans-serif;
+} 
+
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-size: 0.8em;
+  line-height: 1.4;
+  background-color: #24A635;
+} 
+
+/* Liens */ 
+a { 
+  text-decoration: none; 
+} 
+a:link { 
+  color: #fff; 
+} 
+a:visited { 
+  color: #ddd; 
+} 
+a:hover, a:focus, a:active { 
+  text-decoration: underline;
+} 
+/* Pas de bordure pointill�e ou halo lors du clic sur un lien */ 
+a:focus, a:active { 
+  outline: none; 
+} 
+
+a.cliquez_ici{
+ color: blue;
+}
+
+
+/* Pas de bordure autour des images dans les liens */ 
+a img { 
+  border: none; 
+} 
+
+
+
+h1 span { 
+  display: block;
+  font-weight: normal;
+  font-size: 50px; 
+  color: black;
+  /*text-shadow: white 0px 0px 5px #666; */
+} 
+h1 a, h1 a:visited {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+h1 a:hover, h1 a:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: 0px 0px 15px #fff; 
+}
+
+
+
+
+
+
+/* Divers �l�ments de type en-ligne (8) */ 
+em { 
+  font-style: italic; 
+} 
+strong { 
+  font-weight: bold; 
+} 
+
+/* ----------------------------- */
+/*        Blocs                  */
+/* ----------------------------- */
+
+header, nav, footer, figure, section {
+  display: block;
+}
+
+/* Header */ 
+
+header {
+  position: relative;
+  border-bottom: 1px solid #7394A0;
+}
+
+/* Content */ 
+
+
+
+#content p.presentation {
+  /*clear: both;*/
+  font-size: 1.2em;
+  text-align:justify;
+  margin:0px;
+  padding:0px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#content figure {
+  display:inline-block;
+  position: relative;
+  vertical-align:top;
+  width:210px;
+  height:168px;
+  background:rgba(255,255,255,0.2);
+  border:12px solid rgba(255,255,255,0.2);
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  -moz-box-shadow:1px 1px 13px #999;
+  -webkit-box-shadow:1px 1px 13px #999;
+  box-shadow:1px 1px 13px #999;
+  margin:0 40px 40px 0;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+#content figure a {
+  text-decoration: none;
+  padding: 0;
+}
+#content figure a[href^="http:"]:after { 
+  content: "";
+}
+#content figure h2 {
+  position: absolute;
+  top: -27px;
+  display:block;
+  margin:0;
+  padding:0;
+  font-size:20px;
+  color:#fff;
+  font-family:"HittheRoad", "Lucida Grande",Tahoma, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+  text-shadow:0 0 10px #000;
+   
+  opacity:0.7;
+}
+#content figure:hover, #content figure:focus {
+  border: 12px solid rgba(255,255,255,0.4);
+}
+#content figure:hover h2, #content figure:focus h2 {
+  opacity: 0.9;
+}
+
+#content p.contact {
+  margin-top: 20px;
+}
+#content p.contact img {
+  float: left;
+  margin-right: 20px;
+}
+#content p.livres img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Middle */ 
+#middle {
+  padding-top:20px;
+  width:100%;
+}
+
+
+/* Footer */ 
+
+footer {
+  clear: both;
+  width: 925px;
+  margin: 20px auto;
+  padding-right: 0px;
+}
+footer nav {
+  float: right;
+  margin-bottom: 70px;
+}
+footer nav a {
+  display: inline-block;
+  vertical-align: top;
+  height: 65px;
+  line-height: 65px;
+  margin-left: 5px;
+  padding: 0 10px;
+  background: rgba(255,255,255,0.1);
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+footer nav a img {
+  vertical-align: middle;
+}
+
+footer nav a:hover, footer nav a:focus {
+  -moz-transform: rotate(8deg); 
+  -webkit-transform: rotate(8deg);
+}
+footer #alsacreations {
+  clear: both;
+  float: right;
+}
+footer #alsacreations a {
+  display: block;
+  margin-bottom: 15px;
+}
+footer #alsacreations img {
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+footer #alsacreations img:hover, footer #alsacreations img:focus {
+  -moz-transform: rotate(5deg); 
+  -webkit-transform: rotate(5deg);
+}
+
+
+div.entete{
+  background-color:white;
+  font-weight: bold;
+  text-shadow: #FFFFFF 2px -1px 2px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  margin-bottom:3px;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+}
+div.contenu{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  padding: 10px 10px 10px 10px;
+  min-height:200px;
+  margin-bottom:20px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+
+}
+
+
+
+
+div.contenu4middle4referencement{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:100px;
+  margin-bottom:20px;
+  width:75%;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+div.contenu4middle4salle{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:200px;
+  margin-bottom:20px;
+  width:75%;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  height: 500px;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+div.contenu4middle4musee{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:200px;
+  margin-bottom:20px;
+  width:75%;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  height: 500px;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+
+div.contenu4middle4avantapres{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:200px;
+  margin-bottom:20px;
+  width:75%;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  height: 300px;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+div.contenu4middle4espritsain{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:200px;
+  margin-bottom:20px;
+  width:75%;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  height: 200px;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+
+
+div.contenu4middle4adresse{
+  background-color:white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  behavior: url(scripts/ie-css3.htc); /* permet le support css3 dans IE 6, 7, 8 */
+  min-height:100px;
+  margin-bottom:20px;
+  width:75%;
+  text-align:justify;
+  padding: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 3px 10px #666;
+  -moz-box-shadow: 0 3px 10px #666;
+  text-shadow: #666 0px 3px 10px;
+  height: 100px;
+  font-family:"HittheRoad", "Lucida Grande",Times New Roman, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+}
+
+
+p.subtitle{
+  font-weight:bold;
+}
+
+#content figure 
+{
+  width: 210px;
+  float: left;
+  margin: 0 20px 0 0;
+  background: white;
+  border: 10px solid white;
+  -webkit-box-shadow: 0 3px 10px #ccc;
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  position: relative;
+}
+
+#content figcaption 
+{
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+#content figure.photoToExtend:hover
+{
+  -webkit-transform: rotate(-3deg); 
+  -moz-transform: rotate(-3deg);
+  -webkit-box-shadow: 0 3px 10px #666; 
+  -moz-box-shadow: 0 3px 10px #666;
+}
+
+#content figure.photoToExtend:focus
+{
+  outline: none;
+  -webkit-transform: rotate(-3deg) scale(2.5); 
+  -moz-transform: rotate(-3deg) scale(2.5);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  z-index: 9999;
+}
+
+
+/********* IMAGES ************/
+img {border: none;}
+.container {
+  width: 600px;
+  margin: -180px 0 0 -400px;
+  top: 50%; left: 50%;
+  position: absolute;
+  padding: auto;
+}
+ul.thumb {
+  float: left;
+  list-style: none;
+  margin: 0; padding: 10px;
+  width: 100%;
+}
+ul.thumb li {
+  margin: 0; padding: 5px;
+  float: left;
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+ul.thumb li img {
+  width: 100px; height: 100px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #f0f0f0;
+  position: absolute;
+  left: 0; top: 0;
+  -ms-interpolation-mode: bicubic;
+}
+ul.thumb li img.hover {
+  background:url(thumb_bg.png) no-repeat center center;
+  border: none;
+}
+#main_view {
+  float: left;
+  padding: 9px 0;
+  margin-left: -10px;
+}
+
+a.link{
+	color:black;
+	font-weight:bold;
+}

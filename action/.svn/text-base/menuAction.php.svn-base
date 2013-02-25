@@ -1,0 +1,23 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+function makeMenu() {
+  $menu = "<div id=\"content_menu\">
+          <ul>
+            <li><a href=\"index.php\">Accueil</a></li>
+            <li><a href=\"methodologie.php\">M&eacute;thodologie</a></li>
+            <li><a href=\"articles.php\">Articles</a></li>
+            <li><a href=\"images.php\">Photos</a></li>
+            <li><a href=\"acces.php\">Acc&egrave;s</a></li>
+            <li><a href=\"contact.php\">Contact</a> </li>
+          </ul>
+        </div>";
+
+  echo $menu;
+}
+
+?>
